@@ -169,6 +169,7 @@ def display_summary(pokemon_name, pokemon_stats):
         print(f"{pre_evo_name} evolves into {pokemon_name} at {pre_evo_details or 'trade/friendship'}")
         pokemon_stats=pre_evo
         pokemon_name=pre_evo_name
+    print(" ")
 
 def display_pre_evo(pre_evo):
     data_dictionary = parsing.csv_to_nested_dict(
